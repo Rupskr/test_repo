@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Java CI with Maven java 8
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Build with Maven java 8
       run: mvn install
     - name: run application on maven tomcat
       run: mvn spring-boot:run
