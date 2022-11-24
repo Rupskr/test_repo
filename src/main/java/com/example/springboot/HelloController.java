@@ -14,7 +14,7 @@ public class HelloController {
 	
 	@GetMapping("/other")
 	public String abcmethod() {
-		return "Greetings from other method";
+		return "Greetings from other method get mapping";
 	}
 	
 	@GetMapping("/name/{name}")
