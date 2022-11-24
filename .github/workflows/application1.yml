@@ -1,8 +1,11 @@
 name: Workflow example
 on:
   push:
-    paths:
-    - '**.java'
+   paths: 
+    - 'src/main/java/com/example/springboot/Application.java'
+  pull_request:
+    paths: 
+     - 'src/main/java/com/example/springboot/Application.java'
 
 jobs:
   build:
