@@ -2,10 +2,10 @@ name: Java CI with Maven java 8
 
 on:
   push:
-   push: 
+   paths: 
     - 'src/main/java/com/example/springboot/Application.java'
   pull_request:
-    push: 
+    paths: 
      - 'src/main/java/com/example/springboot/Application.java'
 
 jobs:
