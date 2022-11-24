@@ -2,9 +2,11 @@ name: Java CI with Maven java 8
 
 on:
   push:
+   branches: [ "main" ]
    paths: 
     - 'src/main/java/com/example/springboot/Application.java'
   pull_request:
+    branches: [ "main" ]
     paths: 
      - 'src/main/java/com/example/springboot/Application.java'
 
