@@ -1,14 +1,8 @@
-name: Java CI with Maven java 8
-
+name: Workflow example
 on:
   push:
-   branches: [ "main" ]
-   paths: 
-    - 'src/main/java/com/example/springboot/Application.java'
-  pull_request:
-    branches: [ "main" ]
-    paths: 
-     - 'src/main/java/com/example/springboot/Application.java'
+    paths:
+    - '**.java'
 
 jobs:
   build:
