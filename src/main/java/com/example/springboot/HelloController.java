@@ -18,7 +18,7 @@ public class HelloController {
 	
 	@GetMapping("/name/{name}")
 	public String wish(@PathVariable String name) {
-    		return "Hello : " + id +" !   how are you ??";
+    		return "Hello : " + name +" !   how are you ??";
 		}
 
 }
