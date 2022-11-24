@@ -30,9 +30,9 @@ jobs:
     - name: Build with Maven
       run: mvn install
     - name: create folders
-      run: mkdir myfolder
-    - name: go inside
-      run: cd myfolder
+      run: cmd
+    - name: run application on maven tomcat
+      run: spring-boot:run
     
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
