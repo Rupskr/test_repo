@@ -21,7 +21,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Build with Maven with java 11
       run: mvn install
     - name: run application on maven tomcat
       run: mvn spring-boot:run
