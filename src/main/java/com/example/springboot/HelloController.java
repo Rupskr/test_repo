@@ -11,9 +11,14 @@ public class HelloController {
 		return "Greetings from Spring Boot! by cicd";
 	}
 	
-	@GetMapping("/abc")
+	@GetMapping("/other")
 	public String abcmethod() {
-		return "Greetings from abc get mappings";
+		return "Greetings from other method";
 	}
+	
+	@GetMapping("/name/{name}")
+	public String wish(@PathVariable String name) {
+    		return "Hello : " + id +" !   how are you ??";
+		}
 
 }
