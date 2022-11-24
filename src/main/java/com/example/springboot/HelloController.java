@@ -21,5 +21,10 @@ public class HelloController {
 	public String wish(@PathVariable String name) {
     		return "Hello : " + name +" !   how are you ??";
 		}
+	
+	@GetMapping("/id/{id}")
+	public String wishid(@PathVariable String id) {
+    		return "Hello yourid is : " + id ;
+		}
 
 }
