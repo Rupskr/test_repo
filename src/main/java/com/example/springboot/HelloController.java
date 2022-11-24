@@ -12,7 +12,7 @@ public class HelloController {
 	}
 	
 	@GetMapping("/abc")
-	public String index() {
+	public String abcmethod() {
 		return "Greetings from abc get mappings";
 	}
 
