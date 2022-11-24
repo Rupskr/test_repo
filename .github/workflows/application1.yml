@@ -1,9 +1,9 @@
 name: Workflow example
 on:
-  push:
+ push:
    paths: 
     - 'src/main/java/com/example/springboot/Application.java'
-  pull_request:
+ pull_request:
     paths: 
      - 'src/main/java/com/example/springboot/Application.java'
 
